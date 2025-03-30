@@ -1,0 +1,83 @@
+#horarios{
+    display: none;
+    width: 100%;
+    height: auto;
+    background-color: rgb(202, 214, 240);
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+
+}
+#tabelaHorario{
+    width: 100%;
+    height: auto;
+    border-radius:2vh;
+    background-color: rgb(158, 189, 255);
+    border-collapse: collapse; /* Remove o espaço entre as células */
+    color: rgb(58, 58, 58);
+
+
+}
+#tabelaHorario thead{
+    background-color: rgb(76, 133, 255);
+    height: 7vh;
+    color: white;
+    font-size: 1.5rem;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+   
+    
+  
+}
+#tabelaHorario tbody tr td{
+    text-align: center;
+    height: 4vh;
+
+}
+
+
+#tabelaHorario tbody tr:nth-child(odd) {
+    background-color: rgb(181, 204, 255);
+}
+
+/* Cor de fundo para linhas pares */
+#tabelaHorario tbody tr:nth-child(even) {
+    background-color: rgb(158, 189, 255);
+}
+
+main #cadastro #horarios button {
+    width: 80%;
+    height: 7vh;
+    color: white;
+    font-weight: 900;
+    font-size: 1.2rem;
+    border-radius: 0.7vw;
+    background-color: rgb(95, 139, 227);
+    border: solid 3px rgb(179, 202, 246);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+main #cadastro #horarios  h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(76, 133, 255);
+    height: 7vh;
+    color: white;
+    margin: 0;
+    line-height:300%;
+
+
+}
+
+main #cadastro #horarios button#entrar{
+    background-color: rgb(71, 222, 126);
+    display: none;
+
+}
+main #cadastro #horarios button#sair{
+    background-color: rgb(222, 74, 71);
+    display: none;
+
+    
+}

@@ -1,0 +1,26 @@
+main #cadastro .mensagem {
+    width: 70%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 0.7vw;
+
+    font-weight: 900;
+    font-size: 1.2rem;
+    margin-top: 4.5vh;
+    text-align: center;
+}
+
+main #cadastro #mensagemSucesso {
+    background-color: rgb(71, 222, 126);
+    display: none;
+}
+
+main #cadastro #mensagemErro {
+    background-color: rgb(222, 74, 71);
+    display: none;
+
+
+}

@@ -1,0 +1,38 @@
+@import url(modulos/FormularioCadastro.css);
+@import url(modulos/QuadrodeCartoes.css);
+@import url(modulos/MensagensErro.css);
+@import url(modulos/AreaDeAcao.css);
+@import url(modulos/TabelaHorarios.css);
+body {
+     padding: 0;
+     margin: 0;
+     background-color: rgb(195, 207, 231);
+
+ }
+
+ header {
+     width: 98vw;
+     height: 5vh;
+     padding-left: 1vw;
+     padding-right: 1vw;
+     display: flex;
+     flex-direction: row;
+     justify-content: start;
+     background-color: rgb(61, 133, 250);
+     gap: 2vw;
+ }
+
+ header h1 {
+     color: whitesmoke;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-weight: bold;
+     font-size: 1rem;
+ }
+
+ main {
+     width: 100vw;
+     height: 95vh;
+     display: flex;
+     flex-direction: row;
+     justify-content: start;
+ }

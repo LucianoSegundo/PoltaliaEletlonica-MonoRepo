@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="javaScript/main.js" defer type="module"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Portaria eletronica versão 0.1</h1>
+       
+    </header>
+    <main>
+
+        <section id="cadastro">
+           
+            <div id="opcoes"> 
+                <h2 class="selecionado" id="bcad" > Cadastro</h2>
+                <h2 id="bhora">  Horarios</h2> 
+            </div>
+            <form  id="formCadastro" >
+              
+                    <label for="nome">Nome Funcionario</label>
+                    <input type="text" name="nome" id="nome" placeholder="Ex: João Goulart">
+              
+                    <label for="cargo">Nome Funcionario</label>
+                    <input type="text" name="cargo" id="cargo" placeholder="Ex: Precidente Deposto">
+               
+                    <label for="urlPerfil">URL da Foto do Funcionario</label>
+                    <input type="text" name="urlPerfil" id="urlPerfil" placeholder="Ex: https://upload.wikimedia.org/wikipedia/commons/d/dc/Jango.jpg">
+
+                <button type="submit"> Cadastrar</button>
+            </form>
+
+            <div id="horarios" >
+                <h3 id="nomeTabela">  de fulano de tal</h3>
+
+                <button type="submit" id="entrar"> Entrar</button>
+                <button type="submit" id="sair"> Sair</button>
+
+                
+
+                <table id="tabelaHorario">
+                    <thead>
+                        <tr> 
+                            <th>Indice</th>
+                            <th>Tipo</th>
+                            <th>Data</th>
+                            <th>Hora</th>
+
+                        </tr>
+                    </thead>
+                    <tbody id="corpoTabela">
+                        <!-- <tr>
+                            <td>1</td>
+                            <td>SAIDA</td>
+                            <td>12/12/2012</td>
+                            <td>10:35</td>
+                        </tr>  -->
+                    </tbody>
+                </table>
+                
+            </div>
+            <section id="mensagemSucesso" class="mensagem">
+            </section>
+            <section id="mensagemErro" class="mensagem">
+            </section>
+        </section>
+        <section id="lista">
+
+            <section id="sublista">
+
+                <!-- <div class="dentro card">
+                    <section>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/d/dc/Jango.jpg" alt="foto de perfil">
+                    </section>
+
+                    <section class="dados">
+                        <p> nome: Janio Quadros</p>
+                        <p> cargo: Candidato</p>
+                    </section>
+                </div> -->
+               
+        
+            </section>
+        </section>
+    </main>
+</body>
+
+</html>

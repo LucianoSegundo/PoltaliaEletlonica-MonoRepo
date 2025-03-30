@@ -1,0 +1,78 @@
+
+main #lista {
+    width: 76%;
+    height: 91%;
+    padding: 2%;
+    background-color: rgb(195, 207, 231);
+}
+
+main #lista #sublista {
+    width: 100%;
+    min-height: 60px;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: safe;
+    gap: 1vw;
+    flex-wrap: wrap;
+    align-items: start;
+
+}
+
+main #lista #sublista .card {
+    width: 18.8%;
+    height: 14vh;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+
+
+
+}
+
+main #lista #sublista .card:hover {
+    border: solid 4px rgb(186, 121, 121);
+}
+
+main #lista #sublista .card section {
+    min-width: 25%;
+    width: auto;
+    background-color: rgb(241, 80, 80);
+}
+
+main #lista #sublista .card .dados {
+    width: 75%;
+    background-color: rgb(247, 104, 104);
+}
+
+main #lista #sublista .dentro.card:hover {
+    border: solid 4px rgb(121, 144, 186);
+}
+
+main #lista #sublista .card.dentro section {
+    background-color: rgb(80, 131, 241);
+}
+
+main #lista #sublista .card.dentro .dados {
+    background-color: rgb(104, 150, 247);
+}
+
+main #lista #sublista .card p {
+    color: white;
+    font-weight: 900;
+    margin: 1vh;
+    width: 90%;
+    height: auto;
+
+}
+
+main #lista #sublista .card img {
+    height: 60%;
+    width: 3vw;
+    border-radius: 2vh;
+    margin-top: 40%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
